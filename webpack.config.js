@@ -36,9 +36,11 @@ const config = {
     new PurifyPlugin()
     
   ],
+  /*
   externals: {
     "@angular/core": "ng.build"
   },
+  */
   output: {
     path: __dirname + '/dist',
     filename: 'main.bundle.js'
